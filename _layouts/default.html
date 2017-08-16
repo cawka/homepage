@@ -1,0 +1,39 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% if page.title and page.title != '' %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  {% css site %}
+</head>
+<body>
+  <div id="container">
+    <div id="banner">
+      <div style="text-align: center">{% img baltic-sea.jpg alt:"Shore of the Baltic Sea" %}</div>
+      <h1><a href="{{ site.baseurl }}/index.html">Alexander Afanasyev</a></h1>
+    </div>
+
+    {% include navbar.html %}
+
+    {{ content }}
+
+    <div id="footer">
+      <a href="mailto:{{ site.data.info.email }}">contact</a>&nbsp;
+      |&nbsp;
+      Copyright 2009-{{ site.time | date: "%Y" }} Alexander Afanasyev&nbsp;
+      |&nbsp;
+		Last modified on {{ page.last_modified_at }}
+    </div>
+    
+  </div>
+  {% js site %}
+</body>
+</html>

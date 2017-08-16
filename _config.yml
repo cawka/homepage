@@ -1,0 +1,50 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugin
+highlighter: rouge
+markdown: kramdown
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache', '.asset-cache']
+
+plugins:
+  - jekyll-assets
+
+title: "Alex Afanasyev - Home Page"
+description: 
+author: Alex Afanasyev
+
+baseurl: ""
+url: ""
+
+google:
+  - analytics: UA-2395047-1
+
+assets:
+  compress:
+    css: false
+    js: true
+
+  digest: false
+  cache: .sass-cache
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/fonts
+    - _assets/js
+    - _assets/bower
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  group_by: year
+  order: descending
+
+  source: ./_assets/bib
