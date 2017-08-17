@@ -1,10 +1,10 @@
-header h1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-nav {
-    letter-spacing: 3px;
-}
+// header h1 {
+//     margin-top: 5px;
+//     margin-bottom: 5px;
+// }
+// nav {
+//     letter-spacing: 3px;
+// }
 
 footer {
     clear : both;
@@ -12,129 +12,145 @@ footer {
     padding-right: $grid-gutter-width / 2;
     padding-bottom : $grid-gutter-width / 4;
     padding-left: $grid-gutter-width / 2;
-    background : $navbar-default-bg;
-    color : $navbar-default-color;
-    font-size: $font-size-small;
+    background : $brand-primary;
+    color: $white;
+    font-size: $font-size-sm;
 }
 
-#content {
-    padding: 0 20px 0 15px;
-    margin-left : 250px;
-    border-left : 1px dashed #333;
-    color : #555;
-    background-color : #f7f7f7;
-}
-#sidebar-a {
-    float : left;
-    width : 220px;
-    margin-left : 5px;
-    padding : 0 5px 0 5px;
-    color : #666;
-    background : #f7f7f7;
-    font-size: 90%;
-}
-#sidebar-b {
-    float : right;
-    width : 140px;
-    margin : 0 5px 0 0 ;
-    padding : 0 5px 15px 5px;
-    color : #333;
-    background : #faf8e9;
-}
+// .col-sm-left-border {
+//     border-left : 1px dashed #333;
+// }
+
+// .border-right {
+//     border-right: 1px solid #ddd;
+// }
+// .borders {
+//     border-left: 1px solid #ddd;
+//     border-right: 1px solid #ddd;
+//     margin: -1px;
+// }
+// .border-left {
+//     border-left: 1px solid #ddd;
+// }
+
+// #content {
+//     padding: 0 20px 0 15px;
+//     margin-left : 250px;
+//     border-left : 1px dashed #333;
+//     color : #555;
+//     background-color : #f7f7f7;
+// }
+// #sidebar-a {
+//     float : left;
+//     width : 220px;
+//     margin-left : 5px;
+//     padding : 0 5px 0 5px;
+//     color : #666;
+//     background : #f7f7f7;
+//     font-size: 90%;
+// }
+// #sidebar-b {
+//     float : right;
+//     width : 140px;
+//     margin : 0 5px 0 0 ;
+//     padding : 0 5px 15px 5px;
+//     color : #333;
+//     background : #faf8e9;
+// }
 
 
-.border {
-    padding : 10px;
-    margin : 10px;
-    border : 1px solid #476042;
-}
-.imgleft {
-    float : left;
-    border : 1px solid #90b905;
-    margin : 5px 10px 10px 15px;
-    padding : 5px;
-}
-// h1 {
-//     margin : 20px;
+// .border {
+//     padding : 10px;
+//     margin : 10px;
+//     border : 1px solid #476042;
+// }
+// .imgleft {
+//     float : left;
+//     border : 1px solid #90b905;
+//     margin : 5px 10px 10px 15px;
 //     padding : 5px;
-//     font-size : 150%;
-//     letter-spacing : 3px;
-//     color : #fff;
-//     background : #476042;
 // }
-// h1 a {
-//     text-decoration : none;
-//     color : #476042;
+// // h1 {
+// //     margin : 20px;
+// //     padding : 5px;
+// //     font-size : 150%;
+// //     letter-spacing : 3px;
+// //     color : #fff;
+// //     background : #476042;
+// // }
+// // h1 a {
+// //     text-decoration : none;
+// //     color : #476042;
+// // }
+// // h1 a:hover {
+// //     text-decoration : underline;
+// //     color: #476042;
+// // }
+
+// // h2 {
+// //     padding-left : 20px;
+// //     font-size : 140%;
+// //     text-transform : uppercase;
+// //     /*letter-spacing : 1px;*/
+// //     color : #476042;
+// //     background : inherit;
+// // }
+// // h3 {
+// //     padding : 5px;
+// //     text-transform : uppercase;
+// //     font-size : 110%;
+// //     color : #fff;
+// //     background : #476042;
+// // }
+// // h4 {
+// //     padding : 5px;
+// //     text-transform : uppercase;
+// //     font-size : 110%;
+// //     color : #fff;
+// //     background : #f17c0b;
+// // }
+// // h5 {
+// //     font-size : 110%;
+// //     margin-top: 1px;
+// //     margin-bottom: 1px;
+// //     font-weight: bold;
+// // }
+
+// blockquote {
+//     font-weight : bold;
+//     font-style : italic;
+//     color : #b29b35;
 // }
-// h1 a:hover {
-//     text-decoration : underline;
-//     color: #476042;
+// .clear {
+//     clear : both;
+//     width : 100%;
+// }
+// .col3,.col3center {
+//     float: left;
+//     width: 30.5%;
+// }
+// .col3center {
+//     margin: 0 3%;
 // }
 
-// h2 {
-//     padding-left : 20px;
-//     font-size : 140%;
-//     text-transform : uppercase;
-//     /*letter-spacing : 1px;*/
-//     color : #476042;
-//     background : inherit;
-// }
-// h3 {
-//     padding : 5px;
-//     text-transform : uppercase;
-//     font-size : 110%;
-//     color : #fff;
-//     background : #476042;
-// }
-// h4 {
-//     padding : 5px;
-//     text-transform : uppercase;
-//     font-size : 110%;
-//     color : #fff;
-//     background : #f17c0b;
-// }
-// h5 {
-//     font-size : 110%;
-//     margin-top: 1px;
-//     margin-bottom: 1px;
-//     font-weight: bold;
-// }
+// /* //-- yui-grids style overrides -- */
+// .yui-gf { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc;  }
+// .yui-u p { margin: 0; margin-bottom: 10px; }
+// .first h2 { font-size: 15pt; margin-bottom: 1em; text-transform: none; }
+// /* //-- core typography and style -- */
 
-blockquote {
-    font-weight : bold;
-    font-style : italic;
-    color : #b29b35;
-}
-.clear {
-    clear : both;
-    width : 100%;
-}
-.col3,.col3center {
-    float: left;
-    width: 30.5%;
-}
-.col3center {
-    margin: 0 3%;
-}
+// /* //-- section styles -- */
 
-/* //-- yui-grids style overrides -- */
-.yui-gf { margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc;  }
-.yui-u p { margin: 0; margin-bottom: 10px; }
-.first h2 { font-size: 15pt; margin-bottom: 1em; text-transform: none; }
-/* //-- core typography and style -- */
+// .job { position: relative; margin-bottom: 0.5em; padding-bottom: 0.5em; border-bottom: 1px solid #ccc; z-index: 0; }
+// .job h2 { text-transform: none; font-size: 100%; padding: 0; margin: 0; background: none; }
+// .job h3 { font-weight: normal; font-style: italic; text-transform: none; background: none; font-size: 100%; margin: 0; padding: 0; color: #555555; margin-right: 100px;}
+// .job h4 { float: right; font-size: 100%; background: none; color: black; padding:0; margin:0; }
+// .job p { margin: 0em 0 0.1em 0; }
 
-/* //-- section styles -- */
-
-.job { position: relative; margin-bottom: 0.5em; padding-bottom: 0.5em; border-bottom: 1px solid #ccc; z-index: 0; }
-.job h2 { text-transform: none; font-size: 100%; padding: 0; margin: 0; background: none; }
-.job h3 { font-weight: normal; font-style: italic; text-transform: none; background: none; font-size: 100%; margin: 0; padding: 0; color: #555555; margin-right: 100px;}
-.job h4 { float: right; font-size: 100%; background: none; color: black; padding:0; margin:0; }
-.job p { margin: 0em 0 0.1em 0; }
-
-.last { border: none; }
-.skills-list {  }
-.skills-list ul { margin: 0; }
-.skills-list li { margin: 3px 0; padding: 3px 0; }
-.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
-.talent { width: 32%; float: left }
-.talent h2 { margin-bottom: 6px; }
+// .last { border: none; }
+// .skills-list {  }
+// .skills-list ul { margin: 0; }
+// .skills-list li { margin: 3px 0; padding: 3px 0; }
+// .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
+// .talent { width: 32%; float: left }
+// .talent h2 { margin-bottom: 6px; }

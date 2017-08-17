@@ -1,15 +1,18 @@
 {% assign info = site.data.info %}
 
-{% img '{{ info.photo }}' alt:'{{ info.name }}' magick:resize:"200x" %}
+<div class="text-center">
+  {% img '{{ info.photo }}' alt:'{{ info.name }}' magick:resize:"200x" style:'max-width\:100%' %}
+  
+  <h5 class="mt-1 mb-0">{{ info.name }}</h5>
+  <p class="mb-2">{{ info.title }}</p>
 
-<h5>{{ info.name }}</h5>
-{{ info.title }}<br/>
-{{ info.affiliation }}
+  <p class="mb-2">
+    {{ info.affiliation }}<br/>
+    {{ info.address }}
+  </p>
 
-
-<p>
-  {{ info.address }}
-</p>
-
-<p>Email: <a href="mailto:{{ info.email }}"</a>{{ info.email }}</a></p>
-<p>Phone: {{ info.phone }}</p>
+  <p class="mb-0">
+    Email: <a href="mailto:{{ info.email }}"</a>{{ info.email }}</a><br/>
+    Phone: {{ info.phone }}
+  </p>
+</div>

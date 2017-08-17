@@ -8,6 +8,7 @@ exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-ca
 
 plugins:
   - jekyll-assets
+  - jekyll-last-modified-at
 
 title: "Alex Afanasyev, Ph.D."
 description: 
@@ -26,6 +27,8 @@ assets:
 
   digest: false
   cache: .sass-cache
+  features:
+    automatic_img_size: false
 
   sources:
     - _assets/css
@@ -40,11 +43,16 @@ assets:
       - "IE > 9"
 
 scholar:
-  style: apa
+  style: _assets/bib/ieee.csl
   locale: en
 
   sort_by: year
-  group_by: year
   order: descending
 
-  source: ./_assets/bib
+  source: _assets/bib
+  repository: assets/papers
+  bibliography_template: bib-item
+
+  bibtex_filters:
+    - latex
+    - markdown

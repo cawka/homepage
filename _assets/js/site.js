@@ -1,5 +1,6 @@
 //= require jquery
-//= require bootstrap-sprockets
+//= require popper
+//= require bootstrap
 
 // Local stuff
 //= require google-analytics

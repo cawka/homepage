@@ -1,0 +1,13 @@
+---
+---
+
+{% if links.pdf %}
+  <a target="_blank" title='PDF' href="{{ links.pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+  &nbsp;
+{% endif %}
+{% if links.pptx %}
+  <a target="_blank" title='Slides' href="{{ links.pptx }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+  &nbsp;
+{% endif %}
+
+{{ reference | replace: "A. Afanasyev","<b>A. Afanasyev</b>"}}

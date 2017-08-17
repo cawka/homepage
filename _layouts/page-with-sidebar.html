@@ -2,14 +2,15 @@
 layout: default
 ---
 
-<div id="sidebar-a">
+<div class="col-12 col-md-3">
   {% include sidebar.html %}
 </div>
 
-<div id="content">
+<div class="borders" style="height: 100%">
+</div>
+
+<div class="col-12 col-md-9">
   <h2>{{ page.title }}</h2>
 
   {{ content }}
-  <br/><br/>
 </div>
-<br/>

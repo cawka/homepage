@@ -1,34 +1,52 @@
-$brand-primary:         #476042 !default;
-$brand-light:           #7ABA2E !default;
-$brand-links:           #f17c0b !default;
+$brand-primary: #476042;
+$brand-light:   #7ABA2E;
+$brand-links:   #F17C0B;
 
-$body-bg:               #f7f7f7 !default;
-$link-color:            $brand-links !default;
-$link-hover-color:      lighten($link-color, 20%) !default;
-$link-hover-decoration: none !default;
+// Theme hack
+$blue:    $brand-primary;
 
+// Body
+$body-bg: #F7F7F7;
+
+// Links
+$link-color:            $brand-links;
+$link-hover-color:      lighten($link-color, 20%);
+$link-hover-decoration: none;
+
+// Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Titillium+Web:400,400i,700');
-$font-family-sans-serif:  'Titillium Web', sans-serif !default;
-$font-family-serif:       'Titillium Web', serif !default;
-$font-family-monospace:   'Source Code Pro', monospace !default;
+$font-family-sans-serif: 'Titillium Web', sans-serif;
+$font-family-monospace:  'Source Code Pro', monospace;
 
-$border-radius-base:        1px !default;
-$border-radius-large:       1px !default;
-$border-radius-small:       1px !default;
+// $border-radius-base:        1px !default;
+// $border-radius-large:       1px !default;
+// $border-radius-small:       1px !default;
 
-// Navbar
-$navbar-height:                    40px !default;
-$navbar-padding-horizontal:        0px !default;
-$navbar-border-radius:             0 !default;
-$navbar-default-color:             #fff !default;
-$navbar-default-bg:                $brand-primary !default;
-$navbar-default-border:            transparent !default;
+// // Navbar
+// $navbar-padding-y:                  0;
+$navbar-dark-color:                 #FFF;
+$navbar-dark-hover-color:           darken($link-color, 20%);
+$navbar-dark-active-color:          #FFF;
 
-// Navbar links
-$navbar-default-link-color:                $navbar-default-color !default;
-$navbar-default-link-hover-color:          darken($link-color, 20%) !default;
-$navbar-default-link-hover-bg:             $brand-light !default;
-$navbar-default-link-active-color:         #000 !default;
-$navbar-default-link-active-bg:            $brand-light !default;
-$navbar-default-link-disabled-color:       #333 !default;
-$navbar-default-link-disabled-bg:          transparent !default;
+$component-active-color: #FFF;
+$component-active-bg:    $brand-light;
+
+// $nav-pills-border-radius:  $border-radius !default;
+// $nav-pills-link-active-color: #FFF;
+// $nav-pills-link-active-bg:    $brand-light;
+
+// $navbar-height:                    40px !default;
+// $navbar-padding-horizontal:        0px !default;
+// $navbar-border-radius:             0 !default;
+// $navbar-default-color:             #fff !default;
+// $navbar-default-bg:                $brand-primary !default;
+// $navbar-default-border:            transparent !default;
+
+// // Navbar links
+// $navbar-default-link-color:                $navbar-default-color !default;
+// $navbar-default-link-hover-color:          darken($link-color, 20%) !default;
+// $navbar-default-link-hover-bg:             $brand-light !default;
+// $navbar-default-link-active-color:         #000 !default;
+// $navbar-default-link-active-bg:            $brand-light !default;
+// $navbar-default-link-disabled-color:       #333 !default;
+// $navbar-default-link-disabled-bg:          transparent !default;

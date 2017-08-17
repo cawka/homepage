@@ -23,21 +23,12 @@
     margin-top: -5px;
 }
 
-@mixin bs-mixin($name, $callout-color) {
-
-    // Callout border color
-    .#{$name} {
-        border-left-color: $callout-color;
+@each $color, $value in $theme-colors {
+    .bs-callout-#{$color} {
+        border-left-color: $value;
     }
-    // Callout header color
-    .#{$name} h4 {
-        color: $callout-color;
+
+    .bs-callout-#{$color} h4 {
+        color: $value;
     }
 }
-
-@include bs-mixin(bs-callout-default, $gray);
-@include bs-mixin(bs-callout-primary, $brand-primary);
-@include bs-mixin(bs-callout-info, $brand-info);
-@include bs-mixin(bs-callout-danger, $brand-danger);
-@include bs-mixin(bs-callout-warning, $brand-warning);
-@include bs-mixin(bs-callout-success, $brand-success);
