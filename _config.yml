@@ -9,7 +9,7 @@ exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-ca
 plugins:
   - jekyll-assets
 
-title: "Alex Afanasyev - Home Page"
+title: "Alex Afanasyev, Ph.D."
 description: 
 author: Alex Afanasyev
 

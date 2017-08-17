@@ -8,8 +8,8 @@
 #   link: /profile.html
 # - name: Awards
 #   link: /awards.html
-# - name: Publications
-#   link: /publications.html
+- name: Publications
+  link: /publications.html
 # - name: Talks
 #   link: /talks.html
 # - name: Software

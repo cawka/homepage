@@ -12,27 +12,41 @@ layout: compress
   <meta name="author" content="{{ site.author }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/manifest.json">
+  <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  
   {% css site %}
 </head>
 <body>
-  <div id="container">
-    <div id="banner">
-      <div style="text-align: center">{% img baltic-sea.jpg alt:"Shore of the Baltic Sea" %}</div>
-      <h1><a href="{{ site.baseurl }}/index.html">Alexander Afanasyev</a></h1>
-    </div>
+  <div class="container-fluid">
+    <header class="row">
+      <div class="col-lg-12 text-center">
+        <img src="{% asset_path baltic-sea.jpg %}" alt="Shore of the Baltic Sea" style="max-width: 100%" />
+      </div>
+      <h1 class="col-lg-12"><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
+    </header>
 
     {% include navbar.html %}
 
     {{ content }}
 
-    <div id="footer">
-      <a href="mailto:{{ site.data.info.email }}">contact</a>&nbsp;
-      |&nbsp;
-      Copyright 2009-{{ site.time | date: "%Y" }} Alexander Afanasyev&nbsp;
-      |&nbsp;
-		Last modified on {{ page.last_modified_at }}
+    <div class="row">
+      <div class="col-lg-12">
+        <footer>
+          <a href="mailto:{{ site.data.info.email }}">contact</a>&nbsp;
+          |&nbsp;
+          Copyright 2009-{{ site.time | date: "%Y" }} {{ site.author }}&nbsp;
+          |&nbsp;
+          Last modified on {{ page.last_modified_at }}
+        </footer>
+      </div>
     </div>
-    
   </div>
   {% js site %}
 </body>
