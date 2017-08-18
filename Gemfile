@@ -15,6 +15,9 @@ group :jekyll_plugins do
   gem 'jekyll-assets', '~> 2.3', '>= 2.3.2'
   gem 'autoprefixer-rails', '~> 7.1', '>= 7.1.2.4'
   gem 'mini_magick', '~> 4.8'
+  gem 'yui-compressor', '~> 0.12.0'
+  gem 'uglifier', '~> 3.2'
+
   gem 'bootstrap', '~> 4.0.0.alpha6'
   gem 'font-awesome-sass', '~> 4.7'
   # gem 'google_drive', '~> 2.1', '>= 2.1.5'

@@ -21,11 +21,6 @@ google:
   - analytics: UA-2395047-1
 
 assets:
-  compress:
-    css: false
-    js: true
-
-  digest: false
   cache: .sass-cache
   features:
     automatic_img_size: false
