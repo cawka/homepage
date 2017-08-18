@@ -1,7 +1,7 @@
 safe: false
 source: .
 destination: ./_site
-plugins_dir: ./_plugin
+plugins_dir: ./_plugins
 highlighter: rouge
 markdown: kramdown
 exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache', '.asset-cache']
@@ -50,8 +50,18 @@ scholar:
   order: descending
 
   source: _assets/bib
+  bibliography:
+    - articles
+    - techreports
+    - tutorials
+    - posters
+    - talks
   repository: assets/papers
   bibliography_template: bib-item
+
+  details_dir: assets/bibtex
+  details_layout: bib-item-details.html
+  details_link: BibTex
 
   bibtex_filters:
     - latex

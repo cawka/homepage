@@ -5,3 +5,4 @@
 // Local stuff
 //= require google-analytics
 //= require hover-link
+//= require details-link
