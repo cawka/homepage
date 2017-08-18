@@ -1,9 +1,9 @@
 - name: Home
   link: /index.html
-# - name: Projects
-#   link: /projects.html
-# - name: Teaching
-#   link: /teaching.html
+- name: Projects
+  link: /projects.html
+- name: Teaching
+  link: /teaching.html
 # - name: Profile
 #   link: /profile.html
 # - name: Awards
