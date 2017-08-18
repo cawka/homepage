@@ -14,8 +14,8 @@ title: "Alex Afanasyev, Ph.D."
 description: 
 author: Alex Afanasyev
 
-baseurl: ""
-url: ""
+baseurl: "/~afanasyev"
+url: "https://users.cs.fiu.edu"
 
 google:
   - analytics: UA-2395047-1

@@ -1,5 +1,5 @@
 - name: Home
-  link: index.html
+  link: /index.html
 # - name: Projects
 #   link: /projects.html
 # - name: Teaching
