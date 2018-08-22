@@ -1,7 +1,7 @@
 {% assign info = site.data.info %}
 
 <div class="text-center">
-  {% img '{{ info.photo }}' alt:'{{ info.name }}' magick:resize:"200x" style:'max-width\:100%' %}
+  {% asset '{{ info.photo }}' alt='{{ info.name }}' srcset:width="200 1x" style="max-width:100%" %}
   
   <h5 class="mt-1 mb-0">{{ info.name }}</h5>
   <p class="mb-2">{{ info.title }}</p>

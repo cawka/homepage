@@ -20,18 +20,18 @@
   <meta name="msapplication-config" content="{{ site.baseurl }}/assets/images/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  {% css site %} 
+  {% asset site.css %}
 </head>
 <body>
   <div class="container">
-    
+
     <header class="row">
       <div class="col-12 text-center">
-        <img src="{% asset_path baltic-sea.jpg %}" alt="Shore of the Baltic Sea" style="max-width: 100%" />
+        {% asset baltic-sea.jpg alt="Shore of the Baltic Sea" style="max-width: 100%" %}
       </div>
       <h1 class="col-12"><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
     </header> <!-- row -->
-    
+
     {% include navbar.html %}
 
     <div class="row mt-3 mb-3">
@@ -51,6 +51,6 @@
     </div> <!-- row -->
   </div> <!-- container-fluid -->
 
-  {% js site %}
+  {% asset site %}
 </body>
 </html>

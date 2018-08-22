@@ -8,20 +8,20 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.5.2"
+gem 'jekyll', '~> 3.8', '>= 3.8.3'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-assets', '~> 2.3', '>= 2.3.2'
-  gem 'autoprefixer-rails', '~> 7.1', '>= 7.1.2.4'
+  gem 'jekyll-assets', '~> 3.0', '>= 3.0.11'
+  gem 'autoprefixer-rails', '~> 9.1', '>= 9.1.3'
   gem 'mini_magick', '~> 4.8'
   gem 'yui-compressor', '~> 0.12.0'
-  gem 'uglifier', '~> 3.2'
+  gem 'uglifier', '~> 4.1', '>= 4.1.18'
 
-  gem 'bootstrap', '~> 4.0.0.alpha6'
-  gem 'font-awesome-sass', '~> 4.7'
+  gem 'bootstrap', '~> 4.1.3'
+  gem 'font-awesome-sass', '~> 5.2'
   # gem 'google_drive', '~> 2.1', '>= 2.1.5'
-  gem 'jekyll-scholar', '~> 5.10', '>= 5.10.2'
+  gem 'jekyll-scholar', '~> 5.14'
   gem 'jekyll-last-modified-at', '~> 1.0', '>= 1.0.1'
 end
 
