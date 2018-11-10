@@ -4,3 +4,4 @@ _site
 Gemfile.lock
 .travis.d/id-rsa
 .jekyll-cache
+.DS*
