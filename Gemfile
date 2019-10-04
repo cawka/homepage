@@ -8,21 +8,21 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling
-gem 'jekyll', '~> 3.8', '>= 3.8.5'
+gem 'jekyll', '~> 3.8', '>= 3.8.6'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-assets', '~> 3.0', '>= 3.0.11'
-  gem 'autoprefixer-rails', '~> 9.3', '>= 9.3.1'
-  gem 'mini_magick', '~> 4.9', '>= 4.9.2'
+  gem 'jekyll-assets', '~> 3.0', '>= 3.0.12'
+  gem 'autoprefixer-rails', '~> 9.6', '>= 9.6.1.1'
+  gem 'mini_magick', '~> 4.9', '>= 4.9.5'
   gem 'yui-compressor', '~> 0.12.0'
-  gem 'uglifier', '~> 4.1', '>= 4.1.19'
+  gem 'uglifier', '~> 4.2'
 
-  gem 'bootstrap', '~> 4.1.3'
-  gem 'font-awesome-sass', '~> 5.5', '>= 5.5.0.1'
+  gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+  gem 'font-awesome-sass', '~> 5.11', '>= 5.11.2'
   # gem 'google_drive', '~> 2.1', '>= 2.1.5'
-  gem 'jekyll-scholar', '~> 5.14'
-  gem 'jekyll-last-modified-at', '~> 1.0', '>= 1.0.1'
+  gem 'jekyll-scholar', '~> 5.16'
+  gem 'jekyll-last-modified-at', '~> 1.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
