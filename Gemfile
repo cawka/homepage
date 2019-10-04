@@ -21,7 +21,7 @@ group :jekyll_plugins do
   gem 'bootstrap', '~> 4.3', '>= 4.3.1'
   gem 'font-awesome-sass', '~> 5.11', '>= 5.11.2'
   # gem 'google_drive', '~> 2.1', '>= 2.1.5'
-  gem 'jekyll-scholar', '~> 5.16'
+  gem 'jekyll-scholar', '= 5.14'
   gem 'jekyll-last-modified-at', '~> 1.1'
 end
 
