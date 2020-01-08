@@ -12,6 +12,8 @@ gem 'jekyll', '~> 3.8', '>= 3.8.6'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'sprockets', '~> 3.7', '>= 3.7.2'
+  # # 3.0.x not compatible with sprockets 4 that are now installed
   gem 'jekyll-assets', '~> 3.0', '>= 3.0.12'
   gem 'autoprefixer-rails', '~> 9.6', '>= 9.6.1.1'
   gem 'mini_magick', '~> 4.9', '>= 4.9.5'
