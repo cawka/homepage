@@ -8,11 +8,6 @@ I am an Assistant Professor in the School of Computing and Information Sciences 
 My particular interest right now is application of Information-Centric Networking (ICN) to Internet-of-Things (IoT), specifically realizing the vision of IoT where applications securely communicate with and about "things" without being concerned about specific details of the devices/controllers that represent things.
 {: class="bs-callout bs-callout-success" }
 
-{% comment %}
-I'm currently looking for students to work on several of my projects. Please contact me if you are interested.
-{: class="alert alert-success"}
-{% endcomment %}
-
 I received my B.Tech. and M.Tech. degrees in Computer Science from Bauman Moscow State Technical University, Moscow, Russia in 2005 and 2007, respectively. I also got M.S. degree in Computer Science at the University of California, Los Angeles in 2012 and in 2013 got my Ph.D degree in Computer Science from UCLA (see my profile page for more details).
 
 {% comment %}

@@ -27,6 +27,13 @@ module Jekyll
         data['title'] = data['entry']['title'] if data['entry'].has_key?('title')
       end
 
+      def url
+        @url ||= URL.new(
+          :template     => template,
+          :placeholders => url_placeholders,
+          :permalink    => permalink
+        ).to_s
+      end      
     end
 
     class DetailsGenerator < Generator

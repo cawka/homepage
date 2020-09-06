@@ -8,7 +8,6 @@ exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-ca
 
 plugins:
   - jekyll-assets
-  - jekyll-last-modified-at
 
 title: "Alex Afanasyev, Ph.D."
 description: 

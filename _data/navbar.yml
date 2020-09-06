@@ -10,7 +10,7 @@
 #   link: /awards.html
 - name: Publications
   link: /publications.html
-- name: Talks
-  link: /talks.html
+# - name: Talks
+#   link: /talks.html
 - name: Software
   link: /software.html
