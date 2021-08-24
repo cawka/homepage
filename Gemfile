@@ -19,7 +19,7 @@ group :jekyll_plugins do
 
   gem "jekyll-assets", git: "https://github.com/envygeeks/jekyll-assets", ref: '056d2c88719ef3b1f90967a606dd1441581dd832', group: :jekyll_plugins
   # gem 'jekyll-assets', '~> 3.0', '>= 3.0.12'
-  gem 'autoprefixer-rails', '~> 9.8', '>= 9.8.6.3'
+  gem 'autoprefixer-rails', '~> 10.3', '>= 10.3.1.0'
   # gem 'autoprefixer-rails', '~> 9.6', '>= 9.6.1.1'
   gem 'mini_magick', '~> 4.10', '>= 4.10.1'
   # gem 'mini_magick', '~> 4.9', '>= 4.9.5'

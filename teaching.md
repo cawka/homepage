@@ -7,11 +7,15 @@ group: Teaching
 
 Current classes:
 
+- [CNT-4713 (Fall 2021)](https://users.cs.fiu.edu/~afanasyev/classes/fall21/CNT-4713/)
+
+- [TCN-6430 (Fall 2021)](https://users.cs.fiu.edu/~afanasyev/classes/fall21/TCN-6430/)
+
+Past classes:
+
 - [CNT-4713 (Fall 2020)](https://users.cs.fiu.edu/~afanasyev/classes/fall20/CNT-4713/)
 
 - [TCN-6430 (Fall 2020)](https://users.cs.fiu.edu/~afanasyev/classes/fall20/TCN-6430/)
-
-Past classes:
 
 - [CNT-4713 (Spring 2020)](https://users.cs.fiu.edu/~afanasyev/classes/spring20/CNT-4713/)
 
